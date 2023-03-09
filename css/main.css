@@ -1,3 +1,8 @@
+:root {
+    --bs-primary-rgb: 253, 13, 55;
+    --JD-primary-color: #cc33cc;
+}
+
 body {
     font-family: 'Tilt Neon', cursive;
 }
@@ -10,4 +15,9 @@ body {
 main .heroImg figcaption {
     top: 5rem;
     right: 2rem;
+}
+
+.btn-primary {
+    background: var(--JD-primary-color);
+    border: var(var(--JD-primary-color));
 }
