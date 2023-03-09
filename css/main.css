@@ -1,3 +1,13 @@
 body {
     font-family: 'Tilt Neon', cursive;
 }
+
+.display-1 {
+    text-shadow: 2px 2px 0 white;
+}
+
+/* this is overriding the bootstrap class */
+main .heroImg figcaption {
+    top: 5rem;
+    right: 2rem;
+}
